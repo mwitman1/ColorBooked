@@ -5,9 +5,10 @@ Automated generation of coloring book images. Convert an image into a coloring b
 2. K-means clustering to segment the image into N different colors
 3. Edge detection on the segmented RGB image
 
-This approach leads to guaranteed closure of all contours in the final outlined image when performing edge detection..
+This approach leads to guaranteed closure of all contours in the final outlined image when performing the edge detection step. The final product is the color segmented image and the outlined image for coloring.
 
 Usage:
+
 python /path/to/color_booked.py image.jpg --blur StdDev --colors num_colors
 
 StDev: the standard deviation of the Gaussian blur. Default = min(width px, height px)/500
