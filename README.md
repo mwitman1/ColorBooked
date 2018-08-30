@@ -11,4 +11,5 @@ Usage:
 python /path/to/color_booked.py image.jpg --blur StdDev --colors num_colors
 
 StDev: the standard deviation of the Gaussian blur. Default = min(width px, height px)/500
+
 num_colors: N colors in the final image. Default = 10 colors
